@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:sbbwu_session11_buttons_stateful/screens/button_screen.dart';
 import 'package:sbbwu_session11_buttons_stateful/screens/dynamic_color_screen.dart';
 import 'package:sbbwu_session11_buttons_stateful/screens/dynamic_screen_one.dart';
+import 'package:sbbwu_session11_buttons_stateful/screens/radio_button_screen.dart';
 import 'package:sbbwu_session11_buttons_stateful/screens/switch_screen.dart';
 
 void main() {
@@ -18,10 +19,10 @@ class MyApp extends StatelessWidget {
       title: 'Flutter Demo',
       theme: ThemeData(
 
-        colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
+        colorScheme: ColorScheme.fromSeed(seedColor: Colors.pink),
         useMaterial3: true,
       ),
-      home: const SwitchScreen(),
+      home: const RadioButtonScreen(),
     );
   }
 }
